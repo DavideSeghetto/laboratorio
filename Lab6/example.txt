@@ -1,0 +1,2 @@
+prima linea del file example.txt
+seconda linea del file example.txt
