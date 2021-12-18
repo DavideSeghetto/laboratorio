@@ -3,10 +3,9 @@
 #include <iostream>
 
 int main() {
-    std :: ifstream file("text.txt");
+    std :: ifstream file("../src/text.txt");
     Maze maze(file);
     RandomRobot random_robot(maze);
-    std :: cout << random_robot.getLogicalPosition() << std :: endl;
     std :: cout << random_robot.getPosition().x << " " << random_robot.getPosition().y << std :: endl;
     while(maze.getMaze()[random_robot.getLogicalPosition()] != 'E') {
         random_robot.move(maze);
