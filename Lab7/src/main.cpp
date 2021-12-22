@@ -11,5 +11,5 @@ int main() {
         random_robot.move(maze);
         std :: cout << random_robot.getPosition().x << " " << random_robot.getPosition().y << std :: endl;
     }
-    std :: cout << "Ce l'ho fatta capo";
+    std :: cout << "Ce l'ho fatta capo" << std :: endl;
 }

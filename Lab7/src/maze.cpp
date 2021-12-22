@@ -22,3 +22,7 @@ int Maze :: getS_pos() const {
     for(int i = 0; i < SIZE; i++) if(ptr[i] == 'S') return i;
     return -1;
 }
+
+Maze :: ~Maze() {
+    delete[] ptr;
+}

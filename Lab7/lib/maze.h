@@ -14,6 +14,7 @@ class Maze {
     Maze(std :: ifstream& file);
     int getS_pos() const;
     char* getMaze() const;
+    ~Maze();
 };
 
 #endif
